@@ -97,6 +97,32 @@
       "note": "TURON is designed for universal wallet compatibility where Counterparty/BTC custom assets are supported. It aims to be visible and transactable in any compliant wallet worldwide."
     }
   },
+  {
+  "decoder": {
+    "protocol": "Counterparty",
+    "message_type": "Enhanced Send",
+    "supported_asset": {
+      "name": "TURON",
+      "asset_id": 168558
+    },
+    "fields": {
+      "prefix": "CNTRPRTY",
+      "message_id": "0x02",
+      "asset_id": "uint64 (8 bytes)",
+      "quantity": "uint64 (8 bytes)",
+      "recipient_pubkey_hash": "hex (20 bytes)"
+    },
+    "example": {
+      "op_return_hex": "434e54525052545902000000000002926e00000000000000280539f20c2e30805f2947caf5fb0e8a5217c02d9229",
+      "decoded": {
+        "Message Type": "Enhanced Send",
+        "Asset": "TURON",
+        "Quantity": 40,
+        "Recipient PubKeyHash": "0539f20c2e30805f2947caf5fb0e8a5217c02d92"
+      }
+    }
+  }
+}
   "gas_fee": {
     "enabled": true,
     "token": "TURON",
@@ -127,4 +153,5 @@
     ],
     "note": "Actual real-time bank transactions require proper backend logic, regulatory compliance, and API connectivity."
   }
+
 }

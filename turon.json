@@ -3,7 +3,7 @@
   "asset": "TURON",
   "image": "https://arweave.net/vL-GQ0f0Oe038G7qTDIgyFxyNFVGwG8AIgCtJVs1KEw/8i9yzj_thumb.png",
   "image_title": "Touching, Utilities, Running, On, Nodes ",
-  "description": "   <br /><small><em>High Resolution Version (click to expand)</em></small><a href=\"https://arweave.net/bvWysfKpGe0KFMn2KWHrbQ4cmWKmw5biyzv4azMtyYI/8i9yzj_hires.png\" target=\"_blank\"><img src=\"https://arweave.net/bvWysfKpGe0KFMn2KWHrbQ4cmWKmw5biyzv4azMtyYI/8i9yzj_hires.png\" class=\"img-responsive\" /></a><br /> <div><p>(LBG) Limited by Guarantee for the universal \\\"restoring of<br />nations.\\\" This token is a lawful remedy, tasked at force, to deploy probes into illicit blockchain finance. It stands alone as the only Basel-4 compliant token in the world.&nbsp;</p><p>TURON is divine judgement that \\\"Shall go forth lifting the veil from thine eyes.\\\" Memorandum to all LLCs 501 C3's... UCc1-201 UCc1-103 UCc1-207 UCc1-308 the great seal Perseverando all liberties reserved.<br /><br /></p></div>",
+  "description": "   <br /><small><em>High Resolution Version (click to expand)</em></small><a href=\"https://arweave.net/bvWysfKpGe0KFMn2KWHrbQ4cmWKmw5biyzv4azMtyYI/8i9yzj_hires.png\" target=\"_blank\"><img src=\"https://arweave.net/bvWysfKpGe0KFMn2KWHrbQ4cmWKmw5biyzv4azMtyYI/8i9yzj_hires.png\" class=\"img-responsive\" /></a><br /> <div><p>(LBG) Limited by Guarantee for the universal \"restoring of<br />nations.\" This token is a lawful remedy, tasked at force, to deploy probes into illicit blockchain finance. It stands alone as the only Basel-4 compliant token in the world.&nbsp;</p><p>TURON is divine judgement that \"Shall go forth lifting the veil from thine eyes.\" Memorandum to all LLCs 501 C3's... UCc1-201 UCc1-103 UCc1-207 UCc1-308 the great seal Perseverando all liberties reserved.<br /><br /></p></div>",
   "website": "https://www.worldmartialauthority.life/digital-tokens",
   "pgpsig": "",
   "category": "Digital Token",
@@ -27,10 +27,9 @@
     "xcp_floor_usd": 0.0,
     "xcp_floor_xcp": 0.0,
     "source": "https://www.tokenscan.io/asset/TURON"
-  }
-  {
+  },
   "token": "TURON",
-  "description": "Basel-4 compliant digital token with SWIFT and ISO20022 protocol integration",
+  "description_short": "Basel-4 compliant digital token with SWIFT and ISO20022 protocol integration",
   "network": "BTC",
   "market_data": {
     "marketcap_usd": 1657927955726.86,
@@ -97,7 +96,6 @@
       "note": "TURON is designed for universal wallet compatibility where Counterparty/BTC custom assets are supported. It aims to be visible and transactable in any compliant wallet worldwide."
     }
   },
-  {
   "decoder": {
     "protocol": "Counterparty",
     "message_type": "Enhanced Send",
@@ -121,8 +119,7 @@
         "Recipient PubKeyHash": "0539f20c2e30805f2947caf5fb0e8a5217c02d92"
       }
     }
-  }
-}
+  },
   "gas_fee": {
     "enabled": true,
     "token": "TURON",
@@ -153,5 +150,3 @@
     ],
     "note": "Actual real-time bank transactions require proper backend logic, regulatory compliance, and API connectivity."
   }
-
-}
